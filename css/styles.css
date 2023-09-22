@@ -1,0 +1,175 @@
+body {
+  margin: 0px;
+}
+
+.cv-document {
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: arial, sans-serif, tahoma;
+  font-size: 10pt;
+}
+
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  width: 900px;
+  min-height: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  position: relative;
+
+  padding: 40px;
+}
+/* reset */
+* {
+  margin: 0;
+  padđing: 0;
+  box-sizing: border-box;
+}
+/* CSS general */
+
+.section {
+  margin: 40px;
+}
+
+.section-title {
+  padding-bottom: 6px;
+  border-bottom: 1px solid black;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+p,
+b,
+li {
+  line-height: 20px;
+}
+/* set #info */
+.row-info {
+  display: flex;
+  padding: 3px 0;
+}
+
+.row-info > b {
+  width: 100px;
+}
+
+#info {
+  position: relative;
+}
+
+#info img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 113px;
+}
+
+#info h1 {
+  color: #0e2452;
+  margin-bottom: 16px;
+  border-bottom: none;
+}
+
+/* Căn chỉnh */
+.row {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.185);
+  padding: 12px 0;
+}
+.col-4 {
+  display: inline-block;
+  width: 25%;
+  vertical-align: top;
+}
+
+.col-8 {
+  display: inline-block;
+}
+
+/* link */
+#contact a {
+  text-decoration: none;
+}
+
+#contact a:hover {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+.project-title {
+  padding-bottom: 12px;
+}
+
+/* List */
+#project ul,
+#hobby ul {
+  padding: 14px 0 14px 14px;
+}
+
+#contact ol {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
+  padding-left: 14px;
+}
+
+/* advance list */
+
+#education ol,
+#experience ol {
+  list-style-type: none;
+  margin-left: -28px;
+}
+
+#education li,
+#experience li {
+  position: relative;
+  margin: 0;
+  padding-right: 100px;
+}
+
+#education li:before,
+#experience li:before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  width: 1px;
+  left: -12px;
+  top: 0;
+  bottom: 0;
+}
+
+#education li:after,
+#experience li:after {
+  content: "";
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 16px;
+  left: -14px;
+  height: 6px;
+  width: 6px;
+}
+
+#contact ol {
+  list-style-type: none;
+}
+
+#contact li {
+  font-size: 20px;
+  padding: 20px 0 20px 0;
+  text-align: center;
+}
